@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+:root{
+    --bg-color: #292321;
+    --border-color: #666;
+    --font-color: #f1f5f9;
+    --primary-color: #f68f4a;
+    --error-color: #ff0043;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+
+}
+
+main{
+
+    margin: 0 auto;
+    width: 40%;
+}
+
+header{
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+
+#start{
+    margin-left: 28%;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--primary-color);
+    color: #020202;
+    border-radius: 20px;
+    border-color: rgb(145, 71, 2);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+#start:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+.count{
+    margin-top: 20px;
+}
+.multi{
+    width: 40%;
+    margin-left: 10px;
+    height: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    border-radius: 20px;
+    border-color: rgb(145, 71, 2);
+    background-color: #8d8d8d;
+    color: #fff;
+}
+
+#x{
+    font-size: 200%;
+    padding: 10px 30px 0 40px;
+}
+
+.verify{
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 10px;
+    height: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.75rem;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border-radius: 20px 0px 0px 20px;
+    border-color: rgb(145, 71, 2);
+    
+}
+
+#verify{
+    margin-top: 40px;
+    height: 4rem;
+    width: 30%;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    background-color: var(--primary-color);
+    color: #020202;
+    border-radius:  0px 20px 20px 0px ;
+    border-color: rgb(145, 71, 2);
+   
+}
+
+#verify:hover{
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.result{
+    margin-top: 50px;
+    margin-left: 10px;
+    height:4rem;
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+
+}
+
+.result input{
+    width: 20%;
+    border-radius: 20px;
+    border-color: rgb(145, 71, 2);
+    background-color: #8ef7a5;
+    color: #020202;
+    text-align: end;
+    font-weight: bolder;
+    font-size: 80%;
+}
+.wrong{
+    margin-top: 30px;
+    
+}
+.wrong label{
+    margin-right: 40px;
+}
+
+.wrong input{
+    background-color: rgb(255, 0, 0);
+    color: #020202;
+    text-align: end;
+}
+
+.rule{
+    font-weight: bold;
+    font-size:130%;
+    
+}
+
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.custom{
+    background-color: #666;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header class="justify-between align-center">
+            <h1>JOGO DA MULTIPLICAÇÃO</h1>
+            <div class="flex rule">
+                <label for="">Atinja  5 acertos para vencer</label>
+                <button id="start">INICIAR</button>
+            </div>
+            
+        </header>
+        <div class="count flex">
+            <input type="text" disabled="false" class="multi" placeholder="0" id="n1">
+            <label for="x" id="x">X</label>
+            <input type="text" disabled="false" class="multi" placeholder="0" id="n2">
+        </div>
+        <div class="flex">
+            <input class="verify" id="verifyInput" type="number" disabled="false">
+            <button id="verify">VERIFICAR</button>
+        </div>
+        <div class="result">
+            <div class="flex" >
+                <label for="" >Acertos: </label>
+                <input type="number" disabled="false" placeholder="0" id="right">
+            </div>
+            <div class="flex wrong">
+                <label for="">Erros: </label>
+                <input type="number" disabled="false" placeholder="0" id="wrong">
+            </div>     
+        </div>
+   
+   
+    </main>
+</body>
+</html>
